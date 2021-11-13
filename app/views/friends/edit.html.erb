@@ -1,0 +1,9 @@
+<div class="card mb-4">
+  <h5 class="card-header">Edit Friend</h5>
+  <div class="card-body">
+    <%= render 'form', friend: @friend %>
+  </div>
+</div>
+
+<%= link_to 'Show', @friend, class:"btn btn-secondary" %>
+<%= link_to 'Back', friends_path, class:"btn btn-outline-secondary" %>
